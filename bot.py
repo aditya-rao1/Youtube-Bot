@@ -6,6 +6,7 @@ import time
 time.sleep(3)
 print(pyautogui.position())
 
+#This function will open up Youtube. 
 def openYoutube():
     pyautogui.leftClick(214, 1050)
     time.sleep(2)
@@ -24,7 +25,7 @@ def openYoutube():
     pyautogui.press('m')
     pyautogui.press('enter')
 
-
+#This function is responsible for opening either videos or shorts.
 def consumeContent():
     userDesire = input("What do you want to watch on Youtube?")
     i = 0
